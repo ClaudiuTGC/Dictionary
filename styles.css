@@ -1,0 +1,37 @@
+body {
+  background: lightblue;
+}
+header {
+  background: #008080;
+  color: white;
+  font-family: Merriweather;
+  padding: 20px;
+  margin: 101
+  font-size: large;
+}
+
+.input-group mb-3 {
+  width: 200px;
+  margin-left: 10000px;
+}
+
+#button-addon1 {
+  background:#483D8B;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fas fa-search {
+  background: dodgerblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-label {
+  align-items: center;
+  margin-left: 100px;
+}
+
+#search_button {
+  background:#483D8B;
+}

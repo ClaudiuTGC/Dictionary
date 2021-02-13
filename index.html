@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Dictionar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <center>
+      <div align="center">
+        <header>
+          <h1>Please introduce one word!</h1>
+        </header>
+        <div class="input-group mb-3">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1" onclick="return addWords()">Add the word to the dictionary.</button>
+          <input type="text" id="add" class="form-control"  aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <button type="button" id="search_button" class="btn btn-primary" onclick="return searching()">Search the word in the dictionary!</button>
+          <input type="search" id="search1" class="form-control" />
+          <label class="form-label" for="form1"></label>
+        </div>
+      </div>
+    </center>
+    <script src="app.js"></script>
+  </body>
+</html>
