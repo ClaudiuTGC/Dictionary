@@ -12,7 +12,7 @@
       var word = document.getElementById("search1").value;
       for (var j = 0; j < lista.length; j++) {
         if (word == lista[j]) {
-          alert("The word exists already in the dictionary!");
+          alert("The word already exists in the dictionary!");
           word = "";
           document.getElementById("search1").value = "";
           return false;
